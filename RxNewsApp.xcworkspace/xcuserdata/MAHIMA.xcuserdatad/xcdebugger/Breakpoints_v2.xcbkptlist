@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FA670050-2F3D-49CA-9BFC-E17992226C17"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A7F5338-9ECA-4695-88B0-E8D8DF839E55"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RxNewsApp/ViewController/NewsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "NewsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5A7F5338-9ECA-4695-88B0-E8D8DF839E55 - 18348092d4b1d12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RxNewsApp.NewsViewController.newsTableView.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "RxNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MAHIMA/Documents/RxNewsApp/RxNewsApp/ViewController/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "5A7F5338-9ECA-4695-88B0-E8D8DF839E55 - dd80a9ba166cc11e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RxNewsApp.NewsViewController.newsTableView.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "RxNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MAHIMA/Documents/RxNewsApp/RxNewsApp/ViewController/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "5A7F5338-9ECA-4695-88B0-E8D8DF839E55 - 6970f29fc86860d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RxNewsApp.NewsViewController.newsTableView.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "RxNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MAHIMA/Documents/RxNewsApp/RxNewsApp/ViewController/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "5A7F5338-9ECA-4695-88B0-E8D8DF839E55 - 7a54e37209307320"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RxNewsApp.NewsViewController.newsTableView.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "RxNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MAHIMA/Documents/RxNewsApp/RxNewsApp/ViewController/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "5A7F5338-9ECA-4695-88B0-E8D8DF839E55 - 411c82b0759b7a0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RxNewsApp.NewsViewController.init(style: __C.UITableViewStyle) -&gt; RxNewsApp.NewsViewController"
+                  moduleName = "RxNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MAHIMA/Documents/RxNewsApp/RxNewsApp/ViewController/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "5A7F5338-9ECA-4695-88B0-E8D8DF839E55 - 9aa41916fc82b15c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RxNewsApp.NewsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; RxNewsApp.NewsViewController"
+                  moduleName = "RxNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MAHIMA/Documents/RxNewsApp/RxNewsApp/ViewController/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "218">
+               </Location>
+               <Location
+                  uuid = "5A7F5338-9ECA-4695-88B0-E8D8DF839E55 - 84537d7a185a3267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RxNewsApp.NewsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;RxNewsApp.NewsViewController&gt;"
+                  moduleName = "RxNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MAHIMA/Documents/RxNewsApp/RxNewsApp/ViewController/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "141">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
