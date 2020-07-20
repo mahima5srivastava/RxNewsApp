@@ -21,6 +21,7 @@
 		D479BF3F24C52E5E00275070 /* RxNewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D479BF3E24C52E5E00275070 /* RxNewsAppUITests.swift */; };
 		D487E07024C5581D009FE1CB /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487E06F24C5581D009FE1CB /* NewsCell.swift */; };
 		D487E07224C55839009FE1CB /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487E07124C55839009FE1CB /* NewsViewController.swift */; };
+		D487E07524C56302009FE1CB /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487E07424C56302009FE1CB /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		D479BF4024C52E5E00275070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D487E06F24C5581D009FE1CB /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		D487E07124C55839009FE1CB /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		D487E07424C56302009FE1CB /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		D479BF1824C52E5B00275070 /* RxNewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				D487E07324C562EA009FE1CB /* Models */,
 				D479BF1924C52E5B00275070 /* AppDelegate.swift */,
 				D479BF1B24C52E5B00275070 /* SceneDelegate.swift */,
 				D479BF1D24C52E5B00275070 /* ViewController.swift */,
@@ -175,6 +178,14 @@
 				D479BF4024C52E5E00275070 /* Info.plist */,
 			);
 			path = RxNewsAppUITests;
+			sourceTree = "<group>";
+		};
+		D487E07324C562EA009FE1CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D487E07424C56302009FE1CB /* Article.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,6 +432,7 @@
 				D479BF2424C52E5B00275070 /* RxNewsApp.xcdatamodeld in Sources */,
 				D487E07224C55839009FE1CB /* NewsViewController.swift in Sources */,
 				D479BF1C24C52E5B00275070 /* SceneDelegate.swift in Sources */,
+				D487E07524C56302009FE1CB /* Article.swift in Sources */,
 				D487E07024C5581D009FE1CB /* NewsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

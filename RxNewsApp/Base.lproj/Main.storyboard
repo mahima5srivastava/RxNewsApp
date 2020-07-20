@@ -25,26 +25,22 @@
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cv1-c2-WFe">
                                             <rect key="frame" x="16" y="10" width="382" height="69.5"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zI5-hZ-vco">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zI5-hZ-vco">
                                                     <rect key="frame" x="0.0" y="0.0" width="382" height="23"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="23" id="hm1-aP-cFw"/>
-                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the news description. It can be really long. It will come in multiple line" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDu-Xn-EC5">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="This is the news description. It can be really long. It will come in multiple line" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDu-Xn-EC5">
                                                     <rect key="frame" x="0.0" y="28" width="382" height="41.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="cv1-c2-WFe" firstAttribute="centerY" secondItem="o5o-Ih-YLW" secondAttribute="centerY" id="JvI-PJ-mfW"/>
                                         <constraint firstAttribute="trailing" secondItem="cv1-c2-WFe" secondAttribute="trailing" constant="16" id="WfL-70-naI"/>
                                         <constraint firstAttribute="bottom" secondItem="cv1-c2-WFe" secondAttribute="bottom" constant="10" id="cSu-2E-4rb"/>
                                         <constraint firstItem="cv1-c2-WFe" firstAttribute="leading" secondItem="o5o-Ih-YLW" secondAttribute="leading" constant="16" id="ewd-9s-5GV"/>
