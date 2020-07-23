@@ -9,7 +9,7 @@
 import Foundation
 
 struct Article: Codable {
-    let title: String?
+    var title: String?
     let description: String?
 }
 

@@ -58,14 +58,20 @@
                             <outlet property="delegate" destination="1zb-lT-qdV" id="hD5-hY-nsb"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="SNf-P0-ryK"/>
+                    <navigationItem key="navigationItem" id="SNf-P0-ryK">
+                        <barButtonItem key="rightBarButtonItem" title="Change" id="l24-gZ-Use">
+                            <connections>
+                                <action selector="changeTapped:" destination="1zb-lT-qdV" id="VEP-b3-6ME"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="newsTableView" destination="Luj-wm-o2Y" id="eqa-gs-LHl"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5b-xI-rL2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1675.3623188405797" y="-114.50892857142857"/>
+            <point key="canvasLocation" x="1699" y="-149"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pfc-aV-WOd">

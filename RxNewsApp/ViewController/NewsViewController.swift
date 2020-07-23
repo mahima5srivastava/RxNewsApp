@@ -29,7 +29,6 @@ class NewsViewController: UITableViewController {
         let resource = Resource<ArticlesList>(url: url)
         let request = URLRequest.load(resource: resource)
         request.subscribe(onNext: {[weak self] articleList in
-            
             if let articles = articleList?.articles {
                 self?.articleListVM = ArticleListViewModel(articles)
                 DispatchQueue.main.async {
@@ -39,7 +38,10 @@ class NewsViewController: UITableViewController {
         }).disposed(by: disposeBag)
     }
         
-        
+    @IBAction func changeTapped(_ sender: Any) {
+        self.articleListVM?.articleAt(0).title.accept("\(Int.random(in: 1..<5))")
+    }
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -47,8 +49,7 @@ class NewsViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.articleListVM?
-            .articlesVM.count ?? 0
+        return self.articleListVM?.articlesVM.count ?? 0
     }
 
     
