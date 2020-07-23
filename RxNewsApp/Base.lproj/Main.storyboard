@@ -58,13 +58,7 @@
                             <outlet property="delegate" destination="1zb-lT-qdV" id="hD5-hY-nsb"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="SNf-P0-ryK">
-                        <barButtonItem key="rightBarButtonItem" title="Change" id="l24-gZ-Use">
-                            <connections>
-                                <action selector="changeTapped:" destination="1zb-lT-qdV" id="VEP-b3-6ME"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="SNf-P0-ryK"/>
                     <connections>
                         <outlet property="newsTableView" destination="Luj-wm-o2Y" id="eqa-gs-LHl"/>
                     </connections>

@@ -12,11 +12,12 @@ import RxCocoa
 
 struct ArticleViewModel {
     
-    var article: Article
+    //MARK:- PRoperties
     var title = BehaviorRelay.init(value: "")
     var description = BehaviorRelay.init(value: "")
+    
+    //MARK:- Initializer
     init(_ article: Article) {
-        self.article = article
         self.title.accept(article.title ?? "")
         self.description.accept(article.description ?? "")
     }

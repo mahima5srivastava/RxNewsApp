@@ -37,10 +37,6 @@ class NewsViewController: UITableViewController {
             }
         }).disposed(by: disposeBag)
     }
-        
-    @IBAction func changeTapped(_ sender: Any) {
-        self.articleListVM?.articleAt(0).title.accept("\(Int.random(in: 1..<5))")
-    }
     
     // MARK: - Table view data source
 
